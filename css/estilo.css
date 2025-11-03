@@ -1,0 +1,25 @@
+/* Azul (#4AB1E0) — referência ao Sulley
+Verde (#8DD33F) — referência ao Mike
+Roxo claro (#A786C9) — para detalhes ou botões */
+
+.preta{
+    color:  #212529;
+}
+.circle-img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background-color: #4AB1E0; /* azul de Monstros S.A. */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.circle-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
